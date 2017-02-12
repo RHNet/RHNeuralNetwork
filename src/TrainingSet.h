@@ -4,11 +4,13 @@
 
 class TrainingSet
 {
-  public:
-    std::vector<double> inputs;
-    std::vector<double> outputs;
+public:
+  std::vector<double> inputs;
+  std::vector<double> outputs;
 
-    TrainingSet(const std::vector<double> &inputs, const std::vector<double> &outputs) : inputs(inputs), outputs(outputs){};
+  TrainingSet(const std::vector<double> &inputs, const std::vector<double> &outputs)
+      : inputs(inputs),
+        outputs(outputs){};
 };
 
 #endif
